@@ -15,12 +15,14 @@ public class LeadersInArray {
         int[] arr1={10,20,30};
         int[] arr2={30,20,10};
         int[] arr3={4};
-        leaders(arr);
+        leaders(arr);// 2,5,6,10
         System.out.println();
-        leaders(arr1);
+        leaders(arr1);// 30
         System.out.println();
-        leaders(arr2);
+        leaders(arr2);// 10,20,30
         System.out.println();
-        leaders(arr3);
+        leaders(arr3);// 4
     }
 }
+
+
